@@ -28,7 +28,7 @@ pub struct ListDeveloperProductResponseItem {
     pub name: String,
     pub description: Option<String>,
     pub icon_image_asset_id: Option<AssetId>,
-    pub price_in_robux: u32,
+    pub price_in_robux: Option<u32>,
 }
 
 #[derive(Deserialize)]
